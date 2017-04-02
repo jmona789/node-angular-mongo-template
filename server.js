@@ -12,8 +12,12 @@ var bodyParser = require('body-parser');
 var PORT = process.env.PORT || 9001;
 
 app.use(express.static(__dirname + "/public"));
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
-// require('./app/routes/routes')(app); //pass our application and passport into our routes
+//pass our application and passport into our routes
+require('./routes')(app);
+ 
 
 //***DB connection***
 mongoose.connect(process.env.MONGODB_URI, function(err){
