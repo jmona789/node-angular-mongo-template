@@ -1,0 +1,1 @@
+A template for making a Node.js web app using AngularJS and MongoDB
