@@ -1,0 +1,22 @@
+{
+  "name": "node-angular-mongo",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "James Mona"
+  ],
+  "license": "ISC",
+  "homepage": "N/A",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.1",
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2"
+  }
+}

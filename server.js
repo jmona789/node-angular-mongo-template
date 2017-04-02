@@ -11,7 +11,7 @@ var bodyParser = require('body-parser');
 
 var PORT = process.env.PORT || 9001;
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/"));
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
