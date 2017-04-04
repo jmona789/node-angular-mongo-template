@@ -4,8 +4,8 @@ angular.module('yourAppName').config(function($stateProvider, $urlRouterProvider
     $stateProvider
         .state('home', {
             url: '/',
-            templateUrl: '/views/home.html'
-            // controller: 'OverviewController',
+            templateUrl: '/views/home.html',
+            controller: 'HomeController'
             // authenticate: true
         })
         // .state("login", {
